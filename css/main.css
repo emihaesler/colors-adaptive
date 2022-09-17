@@ -21,7 +21,7 @@ html, body {
 header {
   height: 300px;
   width: 100%;
-  background: #e3e3e3;
+  background: #e0bfcd;
 }
 
 
@@ -31,18 +31,26 @@ header {
   width: 100%;
   height: 320px;
   float: left;
+  font-size: 50px;
+  font-variant: small-caps;
+  text-overflow: ellipsis;
+  text-align: center;
+  overflow: auto;
 }
 
 #column-1 {
-  background: #d5d5d5;
+  background: #c9a6dd;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #column-2 {
-  background: #d5d5d5;
+  background: #e08f8f;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #column-3 {
-  background: #d5d5d5;
+  background: #e7dea6;
+  font-family: 'Pacifico', cursive;
 }
 
 
@@ -51,7 +59,7 @@ header {
 footer {
   width: 100%;
   height: 30px;
-  background: #e3e3e3;
+  background: #f1b4da;
 }
 
 
@@ -60,23 +68,23 @@ footer {
 
 @media (min-width: 768px) {
   header {
-    background-color: ;
+    background-color: blueviolet ;
   }
 
   #column-1 {
-    background-color: ;
+    background-color: aqua;
   }
 
   #column-2 {
-    background-color: ;
+    background-color: azure;
   }
 
   #column-3 {
-    background-color: ;
+    background-color: hotpink;
   }
 
   footer {
-    background-color: ;
+    background-color: rosybrown;
   }
   
 }
@@ -85,23 +93,23 @@ footer {
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
   header {
-    background-color: ;
+    background-color: #270202;
   }
 
   #column-1 {
-    background-color: ;
+    background-color: #741c1c;
   }
 
   #column-2 {
-    background-color: ;
+    background-color: #a34242;
   }
 
   #column-3 {
-    background-color: ;
+    background-color: #ce5f5f;
   }
 
   footer {
-    background-color: ;
+    background-color: #d8a3a3;
   }
    
 }
